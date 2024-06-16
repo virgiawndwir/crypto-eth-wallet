@@ -1,0 +1,64 @@
+.navbar {
+  background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.main {
+  background-color: #f5f5f5;
+  background: linear-gradient(-45deg, #294a7c, #171f68);
+	background-size: 400% 400%;
+	animation: gradientmove 10s ease infinite;
+  font-size: 16px;
+  height: 100vh;
+  padding: 40px 60px;
+}
+
+.walletCard {
+  background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
+  margin-bottom: 10px;
+  border: none !important;
+  height: 7rem !important;
+  font-size: 15px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;          
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 16px !important;
+  display: flex !important;
+  justify-content: center;
+}
+
+.text-navbar {
+  background-image: linear-gradient(
+    to right,
+    #f46b45 0%,
+    #eea849 51%,
+    #f46b45 100%
+  );
+  padding: 10px 20px;
+  border-radius: 4px 40px 4px 40px;
+  color: #ffffff !important;
+  font-family: 'Roboto';
+}
+
+@keyframes gradientmove {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}

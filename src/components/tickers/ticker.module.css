@@ -1,0 +1,52 @@
+.tickerCard {
+  background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
+  margin-bottom: 10px;
+  border: none !important;
+  height: 7rem !important;
+  font-size: 15px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 16px !important;
+  display: flex !important;
+  justify-content: center;
+}
+.tickerCard:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.other {
+  background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
+  margin-bottom: 10px;
+  border: none !important;
+  height: 7rem !important;
+  font-size: 15px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 16px !important;
+  display: flex !important;
+  justify-content: center;
+}
+.other:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.borderUnderText {
+  background-color: #e68e0b;
+  width: 50px;
+  height: 2px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.visit {
+  animation: bounce 2s ease infinite;
+  font-size: 14px;
+}
