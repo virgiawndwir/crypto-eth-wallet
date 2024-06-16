@@ -1,5 +1,5 @@
 ## Information of This Project 
-This project use `React 18.3.1`, `Bootstrap 5`, `Web3 4.9.0`, etc.
+This project use `React 18.3.1`, `Bootstrap 5`, `Web3 4.9.0`, etc (You can see other depedencies in package.json file).
 
 ## FIRST OF ALL
 After you clone this project, don't forget to run `npm install` first in your terminal.
